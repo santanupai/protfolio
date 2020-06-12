@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto, Oxygen, Ubuntu, Cantarell';
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li a{
+    font-size: 18px;
+}
+
+.cardtxt::after{
+    content: '...';
+}
+
+.bg-custom{
+    background-color: #1B75BC;
+    color: #fff;
+    box-shadow:0 0px 1px #1B75BC, 0 0 0px #1B75BC inset;
+    height: 74px;
+    padding: 22px;
+    line-break: auto;
+}
+
+.read-more-btn-bg{
+    background-color: #1B75BC !important;
+    color: #fff;
+}
+
+.white-bg{
+    -webkit-box-shadow:0 0px 2px lavender, 0 0 0px #FCFCFD inset;
+    -moz-box-shadow:0 0px 2px lavender, 0 0 0px #FCFCFD inset;
+    box-shadow:0 0px 2px lavender, 0 0 0px #FCFCFD inset;
+    height: auto;
+}
+
+.single-line{
+    margin-top: 25px;
+}
+
+.multi-line{
+    margin-top: 10px;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.footer-menu ul li{
+    display: inline-block;
+    margin:10px 0 0 18px ;
+    
+}
+
+.footer-menu li a{
+    color: silver;
+    font-size: 15px;
+}
+
+.footer-menu li a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top{
+    position: absolute;
+    right: 20px;
+    margin: -20px 0 6px 0;
+    text-decoration: none;
+    color: #1B75BC;
+}
+
+.top:hover{
+    text-decoration: none;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #6d6d6d; 
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: slategray;
+}
+
+@media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+}
